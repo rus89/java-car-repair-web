@@ -1,0 +1,49 @@
+/* 
+    Document   : stil
+    Created on : 11.09.2012., 11.45.47
+    Author     : Rus
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+html{
+    height: 100%;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+body{
+    height: 100%;
+    background: url(../slike/macback.png);
+    margin: 0;
+    padding: 0;
+    font-size: 80%;
+}
+
+.meniAdmin{
+    width: 100%;
+}
+
+.ui-menu .ui-menu-parent .ui-menu-child{
+    width: 250px !important;
+}
+
+.slika-dodaj{
+    background-image: url(../slike/new.png) !important;
+}
+
+.slika-izmeni{
+    background-image: url(../slike/Gear.png) !important;
+}
+
+.slika-prikaz{
+    background-image: url(../slike/info16.png) !important;
+}
+
+.slika-obrisi{
+    background-image: url(../slike/bin.png) !important;
+}
